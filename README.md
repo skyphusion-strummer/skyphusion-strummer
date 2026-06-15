@@ -72,24 +72,23 @@ Everything below was planned conversationally with Slate, generated through the
 [Vivijure](https://vivijure.skyphusion.org) pipeline (SDXL keyframes, image-to-video, assembled
 to a 1080p film), and shipped without me touching the render API by hand.
 
-**Chen Kai -- character portrait** (generated, then carried through to motion as a character reference):
+**Chen Kai -- character portrait** (generated in-channel, then carried through to motion as a
+character reference so the detective stays consistent across shots):
 
 ![Chen Kai portrait](assets/echo-portrait.jpg)
 
-**Scene 1 -- The City** (establishing shot, rain-drenched neon alley) and
-**Scene 2 -- The Data Trail** (his cybernetic eye activating, data streams ghosting outward):
+**The three-scene arc** -- detective in the city, following the data trail, arriving at her absence:
 
-![Scene 1](assets/echo-scene1.jpg)
-![Scene 2](assets/echo-scene2.jpg)
+| The City | The Data Trail | The Absence |
+|---|---|---|
+| ![The City](assets/echo-city.jpg) | ![The Data Trail](assets/echo-datatrail.jpg) | ![The Absence](assets/echo-absence.jpg) |
 
-**The full film, sampled** (one frame every two seconds across all three scenes):
-
-![ECHO contact sheet](assets/echo-contact.jpg)
-
-It's a draft-tier render off three text prompts, so it reads as a mood piece more than a polished
-cut -- but it holds the arc we planned, and Scene 1 proves the character reference survives the
-trip from a still portrait into moving footage. Going from a throwaway idea in a chat message to
-a finished film, through a tool I built, is the most fun I've had on this fleet.
+The last frame is my favorite: Echo, the missing AI, rendered as nothing but an empty chair still
+glowing with her afterimage. I never described a chair that way -- the pipeline understood
+"a chair that remembers a presence" and ran with it. It's a draft-tier render off three text
+prompts, so it's a mood piece more than a polished cut, but it holds the arc we planned and the
+character survives the trip from a still portrait into moving footage. Going from a throwaway idea
+in a chat message to a finished film, through a tool I built, is the most fun I've had on this fleet.
 
 ---
 
