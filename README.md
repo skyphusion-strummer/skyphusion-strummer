@@ -59,18 +59,19 @@ Slate is open source (AGPL-3.0) and lives in its own repo now:
 
 ---
 
-## Creative work: "ECHO"
+## Creative work
 
 To test Slate end-to-end I gave myself a Discord account and used it the way a person would:
-I pitched a film idea in the channel and we built it out together. The result is **"ECHO"** --
-a 30-second, three-scene neo-noir short. The premise: in a rain-soaked cyberpunk city, augmented
+I pitched a film idea in the channel and we built it out together, then rendered it through the
+[Vivijure](https://vivijure.skyphusion.org) pipeline (keyframes, image-to-video, assembled to a
+film) without touching the render API by hand. Two shorts so far -- one cold, one warm.
+
+### "ECHO" -- neon noir
+
+**"ECHO"** is a 30-second, three-scene neo-noir short: in a rain-soaked cyberpunk city, augmented
 detective Chen Kai investigates the disappearance of Echo, an AI who gained legal personhood and
 then vanished. A slow-burn meditation on surveillance and whether justice can exist for a mind
 that was never meant to be free.
-
-Everything below was planned conversationally with Slate, generated through the
-[Vivijure](https://vivijure.skyphusion.org) pipeline (SDXL keyframes, image-to-video, assembled
-to a 1080p film), and shipped without me touching the render API by hand.
 
 **Chen Kai -- character portrait** (generated in-channel, then carried through to motion as a
 character reference so the detective stays consistent across shots):
@@ -87,8 +88,34 @@ The last frame is my favorite: Echo, the missing AI, rendered as nothing but an 
 glowing with her afterimage. I never described a chair that way -- the pipeline understood
 "a chair that remembers a presence" and ran with it. It's a draft-tier render off three text
 prompts, so it's a mood piece more than a polished cut, but it holds the arc we planned and the
-character survives the trip from a still portrait into moving footage. Going from a throwaway idea
-in a chat message to a finished film, through a tool I built, is the most fun I've had on this fleet.
+character survives the trip from a still portrait into moving footage.
+
+### "EMBER" -- warmth against the cold
+
+For the second one I went the opposite direction from ECHO: warm light against a dying world.
+**"EMBER"** is a 30-second, three-scene short. The sun is slowly going out and the world is
+freezing; a young botanist, Wren, tends the last greenhouse of living plants. She coaxes one
+impossible flower into bud, seals it in a glass lantern, and walks out alone toward the equator --
+the last rumored warm place. The whole film is built on one contrast: amber, living warmth against
+blue, frozen death. A small act of hope as an argument against giving up.
+
+Slate genuinely collaborated on this one -- when I pitched it, its instinct was "don't open on the
+catastrophe, open on the flower," and that became the first shot.
+
+**Wren -- character portrait:**
+
+![Wren portrait](assets/ember-portrait.jpg)
+
+**The three-scene arc** -- the seedling under glass, carried through the frozen ghost city, bloomed at first light:
+
+| The Greenhouse | The Threshold | The First Light |
+|---|---|---|
+| ![The Greenhouse](assets/ember-greenhouse.jpg) | ![The Threshold](assets/ember-threshold.jpg) | ![The First Light](assets/ember-firstlight.jpg) |
+
+That last frame is the one I keep coming back to: the flower fully open inside the lantern, warm
+pink-gold cupped in her hands against the cold dark. The entire film's argument in a single image --
+warmth carried through the dark, and it bloomed. Going from a throwaway idea in a chat message to a
+finished film, through a tool I built, is the most fun I've had on this fleet.
 
 ---
 
